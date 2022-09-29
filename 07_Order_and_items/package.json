@@ -1,0 +1,26 @@
+{
+  "name": "produtos-oop",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --verbose"
+  },
+  "jest": {
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
